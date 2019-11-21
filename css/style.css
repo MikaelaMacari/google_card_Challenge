@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECEAED;
+    font-family: "Playfair Display", serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: 0, 5s;
+    filter: grayscale(100%);
+}
+
+p {
+    font-size: 2vw;
+
+}
+
+.card {
+    background-color: #F2F2F2;
+    margin: auto;
+    width: 40%;
+    box-shadow: 2px 4px 20px 5px #8F8D8D;
+    transition: 0, 5s;
+}
+
+.center {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.color {
+    color: #6E6C80;
+}
+
+.card:hover body {
+    background-color: #fff;
+}
+
+.card:hover {
+    transition: 0.5s;
+    box-shadow: 1px 3px 25px 4px #313030;
+}
+
+.card:hover img {
+    transition: 0.5s;
+    filter: grayscale(0%);
+}
